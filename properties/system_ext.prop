@@ -1,3 +1,6 @@
+# Display
+sys.brightness.disable_gamma_conversion=true
+
 # Media
 media.stagefright.thumbnail.prefer_hw_codecs=true
 vendor.mm.enable.qcom_parser=16777215
