@@ -1,0 +1,21 @@
+#
+# SPDX-FileCopyrightText: The LineageOS Project
+# SPDX-License-Identifier: Apache-2.0
+#
+
+# GMS
+PRODUCT_GMS_CLIENTID_BASE := android-uct
+
+# Product characteristics
+PRODUCT_CHARACTERISTICS := device
+
+# Shipping API
+BOARD_SHIPPING_API_LEVEL := 33
+PRODUCT_SHIPPING_API_LEVEL := $(BOARD_SHIPPING_API_LEVEL)
+
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
+
+# Inherit from the proprietary files makefile.
+$(call inherit-product, vendor/retroidpocket/qcs6125-common/qcs6125-common-vendor.mk)

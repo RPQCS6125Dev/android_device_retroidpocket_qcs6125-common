@@ -1,0 +1,18 @@
+[
+  {
+    "repository": "android_kernel_retroidpocket_qcs6125",
+    "target_path": "kernel/retroidpocket/qcs6125"
+  },
+  {
+    "repository": "android_kernel_retroidpocket_qcs6125-devicetrees",
+    "target_path": "kernel/retroidpocket/qcs6125-devicetrees"
+  },
+  {
+    "repository": "android_kernel_retroidpocket_qcs6125-modules",
+    "target_path": "kernel/retroidpocket/qcs6125-modules"
+  },
+  {
+    "repository": "android_kernel_ayn_common-modules",
+    "target_path": "kernel/ayn/common-modules"
+  }
+]
