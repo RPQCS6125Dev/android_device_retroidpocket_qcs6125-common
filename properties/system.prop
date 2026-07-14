@@ -3,10 +3,7 @@ debug.sf.enable_hwc_vds=1
 debug.sf.latch_unsignaled=1
 
 # Media
-media.aac_51_output_enabled=true
 media.stagefright.thumbnail.prefer_hw_codecs=true
-mmp.enable.3g2=true
-persist.mm.enable.prefetch=true
 vendor.mm.enable.qcom_parser=16777215
 
 # Vendor
